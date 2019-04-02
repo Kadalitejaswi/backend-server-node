@@ -1,0 +1,34 @@
+{
+  "name": "tradewin-restserver-waheed",
+  "version": "1.0.0",
+  "description": "Nodejs Learning Project by waheed khan",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --recursive --timeout --20000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://WahidKhan74@bitbucket.org/WahidKhan74/tradewin-restserver-waheed.git"
+  },
+  "keywords": [
+    "ThisIsBestNodejsLearningProject"
+  ],
+  "author": "Waheed Khan",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/WahidKhan74/tradewin-restserver-waheed#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
